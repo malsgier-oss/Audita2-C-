@@ -1,0 +1,16 @@
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\bin\Debug\net8.0\WorkAudit.Data.deps.json
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\bin\Debug\net8.0\WorkAudit.Data.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\bin\Debug\net8.0\WorkAudit.Data.pdb
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\bin\Debug\net8.0\WorkAudit.Core.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\bin\Debug\net8.0\WorkAudit.Core.pdb
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.csproj.AssemblyReference.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.AssemblyInfoInputs.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.AssemblyInfo.cs
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.csproj.CoreCompileInputs.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.sourcelink.json
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudi.50F8EFCD.Up2Date
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\refint\WorkAudit.Data.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\WorkAudit.Data.pdb
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Data\obj\Debug\net8.0\ref\WorkAudit.Data.dll

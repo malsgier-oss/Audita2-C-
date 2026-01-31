@@ -1,0 +1,545 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Tests\\WorkAudit.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj",
+        "projectName": "WorkAudit.Core",
+        "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj",
+        "packagesPath": "C:\\Users\\moha9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moha9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj",
+        "projectName": "WorkAudit.Data",
+        "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj",
+        "packagesPath": "C:\\Users\\moha9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moha9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj",
+        "projectName": "WorkAudit.Reports",
+        "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj",
+        "packagesPath": "C:\\Users\\moha9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moha9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj",
+        "projectName": "WorkAudit.Services",
+        "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj",
+        "packagesPath": "C:\\Users\\moha9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moha9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Tests\\WorkAudit.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Tests\\WorkAudit.Tests.csproj",
+        "projectName": "WorkAudit.Tests",
+        "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Tests\\WorkAudit.Tests.csproj",
+        "packagesPath": "C:\\Users\\moha9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moha9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.UI\\WorkAudit.UI.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.UI\\WorkAudit.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.UI\\WorkAudit.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.UI\\WorkAudit.UI.csproj",
+        "projectName": "WorkAudit",
+        "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.UI\\WorkAudit.UI.csproj",
+        "packagesPath": "C:\\Users\\moha9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\moha9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Core\\WorkAudit.Core.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Data\\WorkAudit.Data.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj"
+              },
+              "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj": {
+                "projectPath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Services\\WorkAudit.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.3650.58, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

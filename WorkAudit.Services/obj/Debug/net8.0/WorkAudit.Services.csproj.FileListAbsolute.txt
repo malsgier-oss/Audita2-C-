@@ -1,0 +1,6 @@
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Services\obj\Debug\net8.0\WorkAudit.Services.csproj.AssemblyReference.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Services\obj\Debug\net8.0\WorkAudit.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Services\obj\Debug\net8.0\WorkAudit.Services.AssemblyInfoInputs.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Services\obj\Debug\net8.0\WorkAudit.Services.AssemblyInfo.cs
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Services\obj\Debug\net8.0\WorkAudit.Services.csproj.CoreCompileInputs.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Services\obj\Debug\net8.0\WorkAudit.Services.sourcelink.json

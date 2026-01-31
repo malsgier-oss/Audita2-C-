@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DV7GS0ureOM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\moha9\\OneDrive\\Documents\\WORK AUIDA2 C#\\Audita2-C-\\WorkAudit.Reports\\WorkAudit.Reports.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moha9\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\moha9\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\moha9\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

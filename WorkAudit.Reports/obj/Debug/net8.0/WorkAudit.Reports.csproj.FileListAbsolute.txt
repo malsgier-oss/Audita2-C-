@@ -1,0 +1,16 @@
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\bin\Debug\net8.0\WorkAudit.Reports.deps.json
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\bin\Debug\net8.0\WorkAudit.Reports.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\bin\Debug\net8.0\WorkAudit.Reports.pdb
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\bin\Debug\net8.0\WorkAudit.Core.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\bin\Debug\net8.0\WorkAudit.Core.pdb
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.csproj.AssemblyReference.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.AssemblyInfoInputs.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.AssemblyInfo.cs
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.csproj.CoreCompileInputs.cache
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.sourcelink.json
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudi.F525064A.Up2Date
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\refint\WorkAudit.Reports.dll
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\WorkAudit.Reports.pdb
+C:\Users\moha9\OneDrive\Documents\WORK AUIDA2 C#\Audita2-C-\WorkAudit.Reports\obj\Debug\net8.0\ref\WorkAudit.Reports.dll

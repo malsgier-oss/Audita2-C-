@@ -1,0 +1,65 @@
+<Page x:Class="WorkAudit.UI.Views.Pages.SearchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vm="clr-namespace:WorkAudit.UI.ViewModels"
+      xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="{Binding DetailsPanelVisible, Converter={StaticResource BoolToGridLengthConverter}}" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left: Search + Table -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="8">
+                <TextBox Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}" Width="200" Margin="0,0,8,0" />
+                <ComboBox ItemsSource="{Binding SectionOptions}" SelectedItem="{Binding FilterSection}" Width="100" Margin="0,0,8,0" />
+                <ComboBox ItemsSource="{Binding StatusOptions}" SelectedItem="{Binding FilterStatus}" Width="100" Margin="0,0,8,0" />
+                <Button Content="Search" Command="{Binding SearchCommand}" />
+            </StackPanel>
+            <DataGrid Grid.Row="1" ItemsSource="{Binding Results}" SelectedItem="{Binding SelectedDocument}"
+                      AutoGenerateColumns="False" IsReadOnly="True" HeadersVisibility="Column" Margin="8"
+                      SelectionMode="Single" SelectionUnit="FullRow">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="40" />
+                    <DataGridTextColumn Header="Type" Binding="{Binding DocumentType}" Width="80" />
+                    <DataGridTextColumn Header="Date" Binding="{Binding CaptureTime}" Width="100" />
+                    <DataGridTextColumn Header="Source" Binding="{Binding Source}" Width="80" />
+                    <DataGridTextColumn Header="Capture" Binding="{Binding CaptureTime}" Width="80" />
+                    <DataGridTextColumn Header="Confidence" Binding="{Binding Confidence}" Width="60" />
+                    <DataGridTextColumn Header="Path" Binding="{Binding FilePath}" Width="*" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Visibility="{Binding DetailsPanelVisible, Converter={StaticResource BoolToVisibilityConverter}}" />
+
+        <!-- Right: Details panel (preview + actions) -->
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Border Grid.Row="0" BorderBrush="LightGray" BorderThickness="1" Margin="4" PreviewMouseWheel="Preview_PreviewMouseWheel">
+                <Grid>
+                    <WebView2 x:Name="PreviewWebView" Visibility="Collapsed" />
+                    <TextBlock x:Name="PreviewPlaceholder" Text="Select a result to preview" VerticalAlignment="Center" HorizontalAlignment="Center" />
+                </Grid>
+            </Border>
+            <StackPanel Grid.Row="1" Margin="8">
+                <TextBlock Text="Notes" Margin="0,4,0,2" />
+                <TextBox Text="{Binding Notes, UpdateSourceTrigger=PropertyChanged}" Height="60" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,0,0,8" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Save Notes" Command="{Binding SaveNotesCommand}" Margin="0,0,8,0" />
+                    <Button Content="Open File" Command="{Binding OpenFileCommand}" Margin="0,0,8,0" />
+                    <Button Content="Delete" Command="{Binding DeleteCommand}" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
